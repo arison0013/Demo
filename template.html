@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+
+<body>
+    <section>
+        <div class="main">
+
+            <form>
+            <header>
+                <h1>Create Account</h1>
+            </header>
+            <div class="online">
+                <div class="c1">
+                    <label for="name" class="ltext"> First name*</label><br>
+                    <input type="text" name="firstname" id="" required placeholder="Enter your name" class="input">
+                </div>
+                <div class="c2">
+                    <label for="name" class="ltext"> Last name</label><br>
+                    <input type="text" name="lastname" id="" placeholder="Enter your last name" class="input">
+                </div>
+
+            </div>
+            <div class="online">
+                <div class="singleContainer">
+                    <label for="email" class="ltext">Email*</label><br>
+                    <input type="email" name="email" id="" required placeholder="Enter your email" class="input" />
+                </div>
+            </div>
+
+            <div class="online">
+                <div class="c1">
+                    <label for="pass" class="ltext">Password*</label>
+                    <input type="password" name="" id="pass" placeholder="Enter your password" required class="input">
+                </div>
+                <div class="c2">
+                    <label for="cpass" class="ltext">Confirm Password*</label>
+                    <input type="password" name="" id="cpass" required placeholder="Enter your password" class="input">
+                </div>
+            </div>
+
+            <div class="online">
+                <div class="c1">
+                    <label class="ltext">Gender</label>
+                    <div class="rinput">
+                        <label for="male">
+                            <input type="radio" name="gender" id="male">Male</label>
+                        <!-- </div>
+                        <div class="rinput"> -->
+                        <label for="female">
+                            <input type="radio" name="gender" id="female">Female</label>
+
+                    </div>
+                </div>
+                <div class="c2">
+                    <label class="ltext">Hobbies</label>
+                    <div class="">
+                        <label for="music">
+                            <input type="checkbox" name="music">Music
+                        </label>
+                        <label for="sport">
+                            <input type="checkbox" name="sport" id="">sports
+                        </label>
+                        <label for="travel">
+                            <input type="checkbox" name="travel" id="">Travel
+                        </label>
+                        <label for="movie">
+                            <input type="checkbox" name="movie" id="">movies
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="online">
+                <div class="c1">
+                    <label for="" class="ltext">Source of Income</label><br>
+                    <select name="" id="fselect">
+                        <option value="a">Employed</option>
+                        <option value="b">SelfEmployed</option>
+                        <option value="c">Unemployed</option>
+                    </select>
+                </div>
+                <div class="c2">
+                    <label for="" class="ltext">Income</label><br>
+                    <input type="range" name="" id="" min="20" max="100" value="0" step="5">
+                    <span id="sid">20k</span>
+                </div>
+            </div>
+
+            <div class="online">
+                <div class="c1">
+                    <label for="" class="ltext">Upload profile picture</label><br>
+                    <input type="file" name="" id="" class="">
+                </div>
+                <div class="c2">
+                    <label for="" class="ltext">Age</label><br>
+                    <input type="number" name="" id="" min="20" max="65" value="18" class="input">
+                </div>
+            </div>
+
+            <div class="online">
+                <div class="singleContainer">
+                    <label for="" class="ltext">Bio</label><br>
+                    <textarea name="" id="" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit" value="submit" class="btn">Create</button>
+            </div>
+            
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
